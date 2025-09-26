@@ -64,7 +64,7 @@ const CustomeHero = () => {
                         href="#contact"
                         data-aos="fade-up"
                         data-aos-delay="500"
-                        className="bg-gradient-to-l from-[#6F00FF] to-[#3338A0] text-white px-6 py-3 items-center gap-3 uppercase font-medium text-sm hover:opacity-90 transition rounded-md inline-flex"
+                        className="bg-gradient-to-r from-[#6F00FF] to-[#9929EA] text-white px-6 py-3 items-center gap-3 uppercase font-medium text-sm hover:opacity-90 transition rounded-md inline-flex"
                     >
                         Get Start
                         <MoveRight />

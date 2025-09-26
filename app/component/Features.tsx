@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import WavyUnderline from "./WavyUnderline";
 // import { Sparkles } from "lucide-react"
 
 
@@ -167,7 +168,7 @@ const Features: React.FC = () => {
 
             </div> */}
 
-            <div className="text-center mb-10">
+            {/* <div className="text-center mb-10">
                 <div data-aos="fade-up" className="inline-flex items-center border border-blue-600 rounded-full px-2 py-1 mb-4 hover:bg-blue-50 transition">
                     <span className="bg-gradient-to-r from-blue-200 via-blue-800 to-blue-600 text-white text-xs font-semibold rounded-full px-3 py-1 mr-2">
                         Our
@@ -176,12 +177,37 @@ const Features: React.FC = () => {
                 </div>
 
                 <h2 data-aos="fade-up" data-aos-delay="100" className="text-2xl md:text-4xl font-gotu mt-4">
-                    Get started with our simple{' '}
+                    Get started with our key{' '}
                     <br className="hidden md:inline" />
-                    Feature
+                    Features
                 </h2>
 
 
+            </div> */}
+
+            <div className="text-center mb-1 md:mb-8">
+                {/* <h2
+          data-aos="fade-up"
+          className="text-2xl sm:text-3xl md:text-4xl mb-2"
+        >
+          Contact Us
+        </h2> */}
+                <h2
+                    data-aos="fade-up"
+                    className="text-center text-[32px] lg:text-[48px] leading-[1.2] tracking-normal"
+                >
+                    <span className="relative font-gotu inline-block text-[#B13BFF] mb-2">
+                        Our Features
+                        <WavyUnderline />
+                    </span>
+                </h2>
+                <p
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                    className="text-center text-gray-800 text-[16px] lg:text-[15px] leading-[1.4] tracking-wide"
+                >
+                    Your guide to smarter business communication with WhatsApp
+                </p>
             </div>
             <div className="container mx-auto space-y-12">
                 {features.map((feature) => (

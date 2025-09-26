@@ -42,6 +42,7 @@
 // D:\NewNextProject\web\app\page.tsx
 
 import Contact from "./component/Contact";
+import CTA from "./component/CTA";
 import CustomeHero from "./component/CustomeHero";
 // import Enterprise from "./component/Enterprise";
 import Features from "./component/Features";
@@ -51,6 +52,8 @@ import GetStart from "./component/GetStart";
 import HeroTech from "./component/HeroTech";
 import HightlightFeature from "./component/HightlightFeature";
 import { Pricing } from "./component/Pricing";
+import PricingFeature from "./component/PricingFeature";
+
 
 // import Testimonial from "./component/Testimonial";
 import WhyChoose from "./component/WhyChoose";
@@ -75,6 +78,8 @@ export default function Home() {
       <HightlightFeature />
       <GetStart />
       <Pricing />
+      <PricingFeature />
+      <CTA />
       {/* <Testimonial /> */}
       <Contact />
     </main>

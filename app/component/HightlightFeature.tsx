@@ -76,7 +76,7 @@ import Image from 'next/image';
 
 const HightlightFeature = () => {
     return (
-        <div id='services' className='bg-[#f9f7f4]'>
+        <div id='services' className='bg-white'>
             <section className="templateContainer  mx-auto py-8 px-4 lg:py-16 lg:px-6">
                 {/* <div className="text-center mb-10">
                 <h2 className="text-4xl tracking-tight font-gotu font-bold text-primary-800">Highlighted Features</h2>

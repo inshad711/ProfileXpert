@@ -14,24 +14,24 @@ import Image from "next/image"
 const phoneData = [
     {
         image:
-            "/newmockup/a66aec9c-585f-4237-abc5-da30b81a0598.png",
-        title: "Effects Library",
+            "/WebMockup/mockup 3.png",
+        title: "Create account",
         description:
             "Comprehensive Effects Library of pre-built effects and filters",
         icon: BookOpen,
     },
     {
         image:
-            "/newmockup/1af7420d-1305-40a7-8c6a-e881349cc7db.png",
-        title: "Pre-made Templates",
+            "/WebMockup/mockup 2.png",
+        title: "Fill details",
         description:
             "Explore a vast collection of pre-built templates, Effects, and transitions.",
         icon: LayoutTemplate,
     },
     {
         image:
-            "/newmockup/27d940a5-e40c-491b-9f09-5b42b05162d7.png",
-        title: "Project Tracking",
+            "/WebMockup/mockup 2.png",
+        title: "Share cards ",
         description: "Keep track of all your published projects",
         icon: BarChart3,
     },
@@ -53,7 +53,7 @@ export default function WhyChoose() {
 
 
             <div className="text-center mb-10">
-                <div
+                {/* <div
                     data-aos="fade-up"
                     className="inline-flex items-center border border-blue-600 rounded-full px-2 py-1 mb-4 hover:bg-blue-50 transition"
                 >
@@ -61,20 +61,21 @@ export default function WhyChoose() {
                         Why Choose
                     </span>
                     <span className="text-sm text-gray-900"> Highlight</span>
-                </div>
+                </div> */}
 
                 <h2 data-aos="fade-up" data-aos-delay="100" className="text-2xl md:text-4xl font-gotu mt-4">
-                    Effortlessly showcase your {' '}
+                    Create & Share Your {' '}
                     <br className="hidden md:inline" />
-                    identity with digital profile cards.
+
+                    Digital Identity Seamlessly!
                 </h2>
 
 
             </div>
             <div className="container mx-auto px-6">
                 {/* Desktop layout */}
-                <div className="hidden md:flex justify-center items-center min-h-[550px]">
-                    <div className="relative w-full max-w-6xl h-[500px] flex justify-center items-center">
+                <div className="hidden md:flex justify-center items-center h-[600px]">
+                    <div className="relative w-full max-w-5xl min-h-[590px] flex justify-center items-center">
                         {/* Left Phone */}
                         <div
                             data-aos="fade-left"
@@ -154,15 +155,15 @@ function PhoneFrame({
             <motion.div
                 animate={{ filter: isHovered ? "blur(4px)" : "blur(0px)" }}
                 transition={{ duration: 0.3 }}
-                className="relative bg-gray-50 w-48 lg:w-64"
+                className="relative bg-gray-50 w-48 lg:w-60"
             >
-                <div className="bg-transparent rounded-[2rem] overflow-hidden aspect-[9/19.5] relative">
+                <div className="bg-transparent rounded-[2rem] overflow-hidden relative">
                     <Image
-                        height={800}
-                        width={800}
+                        height={1000}
+                        width={100}
                         src={phone.image}
                         alt={phone.title}
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-contain"
                     />
                 </div>
 

@@ -77,16 +77,29 @@ export function Pricing() {
                     className="text-center mb-16"
                 >
                     {/* <h2 className="text-4xl md:text-5xl font-gotu text-black mb-6">Choose Your Plan</h2> */}
-                    <span className="inline-flex items-center border border-blue-600 rounded-full px-2 py-1 mb-4 hover:bg-blue-50 transition">
+                    {/* <span className="inline-flex items-center border border-blue-600 rounded-full px-2 py-1 mb-4 hover:bg-blue-50 transition">
                         <span className="bg-gradient-to-r from-blue-200 via-blue-800 to-blue-600 text-white text-xs font-semibold rounded-full px-3 py-1 mr-2">
                             Choose Your
                         </span>
                         <span className="text-sm text-gray-900">Plan </span>
-                    </span>
+                    </span> */}
 
-                    <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                    {/* <p className="text-lg text-gray-600 max-w-2xl mx-auto">
                         Start free and upgrade as your naming needs grow. All plans include our core AI technology.
-                    </p>
+                    </p> */}
+
+                    <div className="flex justify-center">
+                        <h2
+                            data-aos="fade-up"
+                            data-aos-delay="100"
+                            className="text-2xl md:text-4xl font-gotu mt-4 text-center"
+                        >
+                            Choose Your {' '}
+                            {/* <br className="hidden md:inline" /> */}
+                            Plan
+
+                        </h2>
+                    </div>
                 </motion.div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">

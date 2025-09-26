@@ -309,19 +309,19 @@ export default function Contact() {
                         </span>
 
                     </Link> */}
-                    <div
+                    {/* <div
                         data-aos="fade-up"
                         className="inline-flex items-center border border-blue-600 rounded-full px-2 py-1 mb-4 hover:bg-blue-50 transition"
                     >
                         <span className="bg-gradient-to-r from-blue-200 via-blue-800 to-blue-600 text-white text-xs font-semibold rounded-full px-3 py-1">
                             Contact Us
                         </span>
-                    </div>
+                    </div> */}
 
                     <h2 data-aos="fade-up" data-aos-delay="100" className="text-2xl md:text-4xl font-gotu mt-4">
-                        We help you better {' '}
+                        If You Wish To Become A  {' '}
                         <br className="hidden md:inline" />
-                        connections
+                        Channel Partner
                     </h2>
 
 
@@ -331,7 +331,7 @@ export default function Contact() {
                         {/* Left side image section */}
                         <div className="lg:mb-0 mb-4">
                             <div className="group w-full">
-                                <div className="relative" style={{ height: '620px' }}>
+                                <div className="relative" style={{ height: '530px' }}>
                                     <Image
                                         width={800}
                                         height={800}
@@ -377,9 +377,9 @@ export default function Contact() {
 
                         {/* Right side form section */}
                         <div data-aos="fade-up" data-aos-delay="300" className="bg-gray-50 p-4 lg:px-6 lg:rounded-r-2xl rounded-2xl">
-                            <h2 className=" font-gotu text-2xl md:text-4xl leading-10 mb-6">
+                            {/* <h2 className=" font-gotu text-2xl md:text-4xl leading-10 mb-6">
                                 If You Wish To Become A Channel Partner
-                            </h2>
+                            </h2> */}
 
                             {/* Name */}
                             <input
