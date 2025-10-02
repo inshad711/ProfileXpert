@@ -5,10 +5,16 @@ import Link from "next/link";
 
 const FloatingActionButton = () => {
     return (
-        <div className="fixed bottom-8 lg:bottom-5 space-y-2 left-5 z-50">
+        <div className="fixed bottom-8 lg:bottom-5 space-y-2 right-5 z-50">
             {/* Instagram */}
-            <Link
+            {/* <Link
                 href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:scale-105 hover:-translate-y-1 transition-all ease-in-out duration-300 flex items-center gap-0.5 rounded-xl"
+            > */}
+            <Link
+                href="https://wa.me/8652885995"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:scale-105 hover:-translate-y-1 transition-all ease-in-out duration-300 flex items-center gap-0.5 rounded-xl"
@@ -18,13 +24,13 @@ const FloatingActionButton = () => {
                     alt="whatsapp"
                     width={40}
                     height={40}
-                    className="h-10 w-10 object-contain"
+                    className="h-12 w-12 object-contain"
                 />
             </Link>
 
             {/* Facebook */}
-            <Link
-                href="https://www.facebook.com/people/Wonestop/61576583424259/"
+            {/* <Link
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:scale-105 hover:-translate-y-1 transition-all ease-in-out duration-300 flex items-center gap-0.5 rounded-xl"
@@ -34,9 +40,9 @@ const FloatingActionButton = () => {
                     alt="facebook"
                     width={40}
                     height={40}
-                    className="h-10 w-10 object-contain rounded-lg"
+                    className="h-11 w-11 object-contain rounded-lg"
                 />
-            </Link>
+            </Link> */}
         </div>
     );
 };

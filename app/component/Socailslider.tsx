@@ -25,16 +25,21 @@ const icons = [
 
 const Socialslider = () => {
     return (
-        <div className="relative overflow-hidden w-[250px] pb-2 ">
+        // <div className="relative overflow-hidden w-[250px] pb-2 ">
+        <div
+            className="relative overflow-hidden w-[250px] pb-2"
+            style={{
+                WebkitMaskImage:
+                    "linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%)",
+                maskImage:
+                    "linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%)"
+            }}
+        >
+
             <div className="slider relative">
                 <div className="slide-track flex gap-4 md:gap-4">
                     {[...icons, ...icons].map((icon, index) => (
-                        // <div
-                        //     key={index}
-                        //     className="flex items-center justify-center p-1.5 rounded-md bg-gradient-to-tr from-red-400 to-red-700 shadow-md"
-                        // >
-                        //     {icon}
-                        // </div>
+
                         <div
                             key={index}
                             className="flex items-center justify-center p-1.5 rounded-md bg-gradient-to-tr from-purple-400 to-purple-700 shadow-md"
@@ -47,8 +52,8 @@ const Socialslider = () => {
             </div>
 
             {/* Gradient overlays */}
-            <div className="absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-white to-transparent"></div>
-            <div className="absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-white to-transparent"></div>
+            {/* <div className="absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-white to-transparent"></div>
+            <div className="absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-white to-transparent"></div> */}
 
             <style jsx>{`
         .slider {

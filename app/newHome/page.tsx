@@ -2,7 +2,7 @@ import React from 'react'
 import CTA from '../component/CTA';
 // import CustomeHero from '../component/CustomeHero';
 import Contact from '../component/Contact';
-import { Pricing } from '../component/Pricing';
+// import { Pricing } from '../component/Pricing';
 import PricingFeature from '../component/PricingFeature';
 import WhyChoose from '../component/WhyChoose';
 // import Appdevelopmentbanner from '../component/Appdevelopmentbanner';
@@ -38,12 +38,12 @@ const NewHome = () => {
             /> */}
 
             <HeroTech title="The Future of Digital Networking" />
+            <SocailMedia />
             <WhyChoose />
             <WhyChooseFeatures />
-            <SocailMedia />
             <Advantages />
             {/* <CustomeHero /> */}
-            <Pricing />
+            {/* <Pricing /> */}
             <PricingFeature />
             <CTA />
             <Contact />

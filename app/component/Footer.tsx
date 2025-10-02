@@ -170,6 +170,8 @@ const Footer: React.FC = () => {
                         </div> */}
                         <div className="flex sm:flex-row sm:justify-start gap-x-4 mt-6">
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="https://apps.apple.com/in/app/profilexpert/id6747479661"
                                 className="transition-transform hover:-translate-y-0.5"
                             >
@@ -183,6 +185,8 @@ const Footer: React.FC = () => {
                             </a>
 
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="https://play.google.com/store/apps/details?id=com.profile.expert"
                                 className="transition-transform hover:-translate-y-0.5"
                             >
@@ -202,21 +206,22 @@ const Footer: React.FC = () => {
                         <div>
                             <p className="font-medium font-gotu">Company</p>
                             <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                                <a className="hover:pl-2 transition-all duration-300 " href="#">
-                                    About
-                                </a>
-                                <a className="hover:pl-2 transition-all duration-300 " href="#">
-                                    Features
-                                </a>
-                                <a className="hover:pl-2 transition-all duration-300 " href="#">
-                                    Why Choose
-                                </a>
-                                <a className="hover:pl-2 transition-all duration-300 " href="#">
-                                    Service
-                                </a>
                                 <a className="hover:pl-2 transition-all duration-300 " href="#process">
                                     Process
                                 </a>
+                                <a className="hover:pl-2 transition-all duration-300 " href="#about">
+                                    About
+                                </a>
+                                <a className="hover:pl-2 transition-all duration-300 " href="#features">
+                                    Features
+                                </a>
+                                <a className="hover:pl-2 transition-all duration-300 " href="#why-choose">
+                                    Why Choose
+                                </a>
+                                <a className="hover:pl-2 transition-all duration-300 " href="#pricing">
+                                    Pricing
+                                </a>
+
                             </nav>
                         </div>
                         <div>

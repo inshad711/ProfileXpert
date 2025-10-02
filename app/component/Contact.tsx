@@ -318,7 +318,7 @@ export default function Contact() {
                         </span>
                     </div> */}
 
-                    <h2 data-aos="fade-up" data-aos-delay="100" className="text-2xl md:text-4xl font-gotu mt-4">
+                    <h2 id='quotes' data-aos="fade-up" data-aos-delay="100" className="text-2xl md:text-4xl font-gotu mt-4">
                         If You Wish To Become A  {' '}
                         <br className="hidden md:inline" />
                         Channel Partner
@@ -335,39 +335,51 @@ export default function Contact() {
                                     <Image
                                         width={800}
                                         height={800}
-                                        src="/image/undefined_i_want_to_use_in_bac.png"
+                                        src="/WebFeatures/Untitled design (11).png"
                                         alt="Contact Us"
                                         className="w-full h-full object-cover lg:rounded-l-2xl rounded-2xl"
                                     />
 
                                     <div className="absolute bottom-0 w-full lg:p-6 p-4">
 
-                                        <div className="bg-white/90 font-gotu rounded-lg p-4 block">
+                                        <div className="bg-white/80 font-gotu rounded-lg p-4 block">
                                             {/* Phone */}
-                                            <a href="tel:470-601-1911" data-aos="fade-up" data-aos-delay="100" className="flex items-center mb-4">
-                                                <Phone size={30} strokeWidth={2} className="text-indigo-600" />
+                                            <a href="tel: +91 8652885995" data-aos="fade-up" className="flex items-center mb-4">
+                                                <Phone size={30} strokeWidth={2} className="text-[#9112BC]" />
                                                 <h5 className="text-black text-base font-normal leading-6 ml-5">
                                                     +91 8652885995
                                                 </h5>
                                             </a>
 
                                             {/* Email */}
-                                            <a href="https://veilmail.io/irish-geoff" data-aos="fade-up" data-aos-delay="200" className="flex items-center mb-4">
-                                                <Mail size={30} strokeWidth={2} className="text-indigo-600" />
+
+                                            <a
+                                                href="mailto:techmobilize@gmail.com"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                data-aos="fade-up"
+
+                                                className="flex items-center mb-4"
+                                            >
+                                                <Mail size={30} strokeWidth={2} className="text-[#9112BC]" />
                                                 <h5 className="text-black text-base font-normal leading-6 ml-5">
                                                     techmobilize@gmail.com
                                                 </h5>
                                             </a>
 
+
                                             {/* Address */}
-                                            <a href="#" data-aos="fade-up" data-aos-delay="300" className="flex items-center">
-                                                <MapPin size={30} strokeWidth={2} className="text-indigo-600 flex-shrink-0" />
+
+
+                                            <div data-aos="fade-up" className="flex items-center">
+                                                <MapPin size={30} strokeWidth={2} className="text-[#9112BC] flex-shrink-0" />
                                                 <h5 className="text-black max-w-md text-base font-normal leading-6 ml-5">
-                                                    Techmobilize Innovations Pvt Ltd
-                                                    1904, D-1, Shreepati Castle,
+                                                    Techmobilize Innovations Pvt Ltd<br />
+                                                    1904, D-1, Shreepati Castle,<br />
                                                     Khetwadi Back Road, Mumbai 400004
                                                 </h5>
-                                            </a>
+                                            </div>
+
                                         </div>
 
                                     </div>
@@ -426,7 +438,7 @@ export default function Contact() {
                             {/* Submit Button */}
                             <button
                                 type="submit"
-                                className="w-full h-12 text-white text-base font-semibold leading-6 rounded-full transition-all duration-700 hover:bg-indigo-800 bg-indigo-600 shadow-sm"
+                                className="w-full h-12 text-white text-base font-semibold leading-6 rounded-md transition-all duration-700 cursor-pointer hover:bg-purple-800 bg-gradient-to-r from-[#9112BC] to-[#9929EA] shadow-sm"
                             >
                                 Send
                             </button>
