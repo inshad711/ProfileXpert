@@ -238,7 +238,9 @@ export default function PricingFeature() {
                                     {/* <button className="w-full bg-gradient-to-r from-[#9112BC] to-[#9929EA] text-white py-2 rounded-md hover:bg-[#9112BC] transition-all duration-300 hover:scale-105 hover:shadow-lg">
                                         Get Started Free
                                     </button> */}
-                                    <a href="#contact">
+                                    <a href="https://backend.profilexpert.in/download-app"
+                                        target="_blank"
+                                        rel="noopener noreferrer">
                                         <button className="w-full cursor-pointer bg-gradient-to-r from-[#9112BC] to-[#9929EA] text-white py-2 rounded-md hover:bg-[#9112BC] transition-all duration-300 hover:scale-105 hover:shadow-lg">
                                             Get Started Free
                                         </button>
@@ -255,8 +257,9 @@ export default function PricingFeature() {
                                         Get Premium Plan
                                     </button> */}
                                     <a
-                                        href="#contact"
-
+                                        href="https://backend.profilexpert.in/download-app"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
 
                                         className="w-full bg-transparent border border-[#9929EA] text-purple-600 py-2 rounded-md hover:bg-gradient-to-r from-[#9112BC] to-[#9929EA] hover:text-white transition-all duration-300 hover:scale-105 hover:shadow-lg inline-block text-center"
                                     >
@@ -376,11 +379,11 @@ export default function PricingFeature() {
 
                 </div>
 
-                <div className={`text-center mt-8 ${isVisible ? "animate-slide-up animate-delay-400" : "opacity-0"}`}>
+                {/* <div className={`text-center mt-8 ${isVisible ? "animate-slide-up animate-delay-400" : "opacity-0"}`}>
                     <p className="text-sm text-gray-500 mb-4">
                         ⭐ Start free. Upgrade anytime <a href="#contact" className="text-purple-600 hover:underline">Get Premium Plan</a>
                     </p>
-                </div>
+                </div> */}
             </div>
         </section>
     );

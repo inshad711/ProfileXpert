@@ -230,14 +230,17 @@ const Footer: React.FC = () => {
                                 <a className="hover:pl-2 transition-all duration-300" href="#contact">
                                     Contact Us
                                 </a>
-                                <a className="hover:pl-2 transition-all duration-300" href="#">
+                                <a className="hover:pl-2 transition-all duration-300" href="https://profilexpert.in/privacy-policy">
                                     Privacy Policy
                                 </a>
-                                <a className="hover:pl-2 transition-all duration-300 " href="#">
+                                <a className="hover:pl-2 transition-all duration-300 " href="https://profilexpert.in/terms-conditions">
                                     Terms &amp; Conditions
                                 </a>
-                                <a className="hover:pl-2 transition-all duration-300 " href="#">
-                                    Returns Policy
+                                <a className="hover:pl-2 transition-all duration-300 " href="https://profilexpert.in/refund-policy">
+                                    Refund Policy
+                                </a>
+                                <a className="hover:pl-2 transition-all duration-300 " href="https://profilexpert.in/disclaimer">
+                                    Disclaimer
                                 </a>
 
                             </nav>
@@ -263,7 +266,11 @@ const Footer: React.FC = () => {
 
                     </div>
                 </div>
-                <p className="mt-8 text-xs text-gray-800 font-gotu">© 2025 All Rights Reserved ProfileXpert</p>
+                {/* <a href="https://profilexpert.in/copyright" className="mt-8 text-xs text-gray-800 font-gotu">© 2025 All Rights Reserved ProfileXpert</a> */}
+                <a href="https://profilexpert.in/copyright" className="mt-8 text-xs text-gray-800 font-gotu">
+                    © {new Date().getFullYear()} All Rights Reserved ProfileXpert
+                </a>
+
             </div>
         </footer>
     );

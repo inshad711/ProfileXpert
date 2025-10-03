@@ -42,8 +42,7 @@ const NewHome = () => {
             <WhyChoose />
             <WhyChooseFeatures />
             <Advantages />
-            {/* <CustomeHero /> */}
-            {/* <Pricing /> */}
+
             <PricingFeature />
             <CTA />
             <Contact />

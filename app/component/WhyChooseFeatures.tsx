@@ -1166,7 +1166,7 @@ export default function WhyChooseFeatures() {
                                         {feature.description}
                                     </motion.p>
 
-                                    <motion.div
+                                    {/* <motion.div
                                         className="mt-8"
                                         initial={{ opacity: 0, y: 30 }}
                                         whileInView={{ opacity: 1, y: 0 }}
@@ -1197,7 +1197,34 @@ export default function WhyChooseFeatures() {
                                                 Last Features
                                             </button>
                                         )}
+                                    </motion.div> */}
+
+                                    <motion.div
+                                        className="mt-8"
+                                        initial={{ opacity: 0, y: 30 }}
+                                        whileInView={{ opacity: 1, y: 0 }}
+                                        transition={{ duration: 0.2, delay: 1.4 }}
+                                        viewport={{ once: true }}
+                                    >
+                                        {nextFeatureId ? (
+                                            <Link href={`#feature-${nextFeatureId}`}>
+                                                <motion.button
+                                                    className="inline-flex items-center cursor-pointer gap-2 px-6 py-3 bg-gradient-to-r from-[#9112BC] to-[#9929EA] hover:bg-purple-700 text-white rounded-md font-medium hover:shadow-lg transition-all duration-300"
+                                                    whileHover={{ scale: 1.05 }}
+                                                    whileTap={{ scale: 0.95 }}
+                                                >
+                                                    Learn More
+                                                    <motion.span
+                                                        animate={{ x: [0, 4, 0] }}
+                                                        transition={{ duration: 1.5, repeat: Number.POSITIVE_INFINITY }}
+                                                    >
+                                                        →
+                                                    </motion.span>
+                                                </motion.button>
+                                            </Link>
+                                        ) : null} {/* Render nothing if nextFeatureId is falsy */}
                                     </motion.div>
+
                                 </motion.div>
                             </motion.div>
                         )

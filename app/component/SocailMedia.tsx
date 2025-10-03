@@ -754,7 +754,7 @@ export default function SocailMedia() {
                         </p>
 
                         <motion.a
-                            href="#contact"
+                            href="#process"
                             className="inline-flex items-center cursor-pointer gap-2 px-5 py-2.5 sm:px-6 sm:py-3 bg-gradient-to-r from-[#9112BC] to-[#9929EA] hover:bg-purple-700 text-white rounded-md font-medium hover:shadow-lg transition-all duration-300"
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}

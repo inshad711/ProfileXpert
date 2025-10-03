@@ -373,11 +373,17 @@ const Header = () => {
                         {/* Actions */}
                         <div className="flex items-center gap-4">
                             <div className="hidden sm:flex sm:gap-4">
-                                <Link
+                                {/* <Link
                                     href="#quotes"
                                     className="rounded-md bg-gradient-to-r from-[#9112BC] to-[#9929EA] px-5 py-2.5 text-sm font-medium text-white shadow-sm hover:opacity-90 transition"
                                 >
                                     Get Quotes
+                                </Link> */}
+                                <Link
+                                    href="#apply-for-channel-partner"
+                                    className="rounded-md bg-gradient-to-r from-[#9112BC] to-[#9929EA] px-5 py-2.5 text-sm font-medium text-white shadow-sm hover:opacity-90 transition"
+                                >
+                                    Apply for Channel Partner
                                 </Link>
                             </div>
 
@@ -457,11 +463,11 @@ const Header = () => {
 
                     <div className="mt-6">
                         <Link
-                            href="#contact"
+                            href="#apply-for-channel-partner"
                             onClick={closeMobileMenu}
                             className="block w-full rounded-md bg-gradient-to-r from-[#9112BC] to-[#9929EA] px-4 py-2.5 text-sm text-center font-medium text-white hover:opacity-90 transition"
                         >
-                            Get Quotes
+                            Apply for Channel Partner
                         </Link>
                     </div>
                 </nav>

@@ -287,51 +287,503 @@
 //     )
 // }
 
+//////////////// all working //////////////
+
+// // D:\NewNextProject\web\app\component\Contact.tsx
+// import React from 'react';
+// import { Phone, Mail, MapPin } from 'lucide-react';
+// // import Link from 'next/link';
+// import Image from 'next/image';
+
+// export default function Contact() {
+//     return (
+//         <form>
+//             <section id="contact" className="py-6 templateContainer">
+//                 <div className="text-center  py-10 ">
+
+//                     {/* <Link data-aos="fade-up"
+//                         href="#"
+//                         className="inline-flex items-center border border-blue-600 rounded-full px-2 py-1 mb-4 hover:bg-blue-50 transition"
+//                     >
+//                         <span className="bg-gradient-to-r from-blue-200 via-blue-800 to-blue-600 text-white text-xs font-semibold rounded-full px-3 py-1">
+//                             Contact Us
+//                         </span>
+
+//                     </Link> */}
+//                     {/* <div
+//                         data-aos="fade-up"
+//                         className="inline-flex items-center border border-blue-600 rounded-full px-2 py-1 mb-4 hover:bg-blue-50 transition"
+//                     >
+//                         <span className="bg-gradient-to-r from-blue-200 via-blue-800 to-blue-600 text-white text-xs font-semibold rounded-full px-3 py-1">
+//                             Contact Us
+//                         </span>
+//                     </div> */}
+
+//                     <h2 id='quotes' data-aos="fade-up" data-aos-delay="100" className="text-2xl md:text-4xl font-gotu mt-4">
+//                         If You Wish To Become A  {' '}
+//                         <br className="hidden md:inline" />
+//                         Channel Partner
+//                     </h2>
+
+
+//                 </div>
+//                 <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
+//                     <div className="grid lg:grid-cols-2 grid-cols-1">
+//                         {/* Left side image section */}
+//                         <div className="lg:mb-0 mb-4">
+//                             <div className="group w-full">
+//                                 <div className="relative" style={{ height: '530px' }}>
+//                                     <Image
+//                                         width={800}
+//                                         height={800}
+//                                         src="/WebFeatures/Untitled design (11).png"
+//                                         alt="Contact Us"
+//                                         className="w-full h-full object-cover lg:rounded-l-2xl rounded-2xl"
+//                                     />
+
+//                                     <div className="absolute bottom-0 w-full lg:p-6 p-4">
+
+//                                         <div className="bg-white/80 font-gotu rounded-lg p-4 block">
+//                                             {/* Phone */}
+//                                             <a href="tel: +91 8652885995" data-aos="fade-up" className="flex items-center mb-4">
+//                                                 <Phone size={30} strokeWidth={2} className="text-[#9112BC]" />
+//                                                 <h5 className="text-black text-base font-normal leading-6 ml-5">
+//                                                     +91 8652885995
+//                                                 </h5>
+//                                             </a>
+
+//                                             {/* Email */}
+
+//                                             <a
+//                                                 href="mailto:techmobilize@gmail.com"
+//                                                 target="_blank"
+//                                                 rel="noopener noreferrer"
+//                                                 data-aos="fade-up"
+
+//                                                 className="flex items-center mb-4"
+//                                             >
+//                                                 <Mail size={30} strokeWidth={2} className="text-[#9112BC]" />
+//                                                 <h5 className="text-black text-base font-normal leading-6 ml-5">
+//                                                     techmobilize@gmail.com
+//                                                 </h5>
+//                                             </a>
+
+
+//                                             {/* Address */}
+
+
+//                                             <div data-aos="fade-up" className="flex items-center">
+//                                                 <MapPin size={30} strokeWidth={2} className="text-[#9112BC] flex-shrink-0" />
+//                                                 <h5 className="text-black max-w-md text-base font-normal leading-6 ml-5">
+//                                                     Techmobilize Innovations Pvt Ltd<br />
+//                                                     1904, D-1, Shreepati Castle,<br />
+//                                                     Khetwadi Back Road, Mumbai 400004
+//                                                 </h5>
+//                                             </div>
+
+//                                         </div>
+
+//                                     </div>
+//                                 </div>
+//                             </div>
+//                         </div>
+
+//                         {/* Right side form section */}
+//                         <div data-aos="fade-up" data-aos-delay="300" className="bg-gray-50 p-4 lg:px-6 lg:rounded-r-2xl rounded-2xl">
+
+
+//                             {/* Name */}
+//                             <input
+//                                 name="name"
+//                                 type="text"
+//                                 placeholder="Name"
+//                                 required
+//                                 className="w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-md font-normal leading-7 rounded-md border border-gray-200 focus:outline-none pl-4 mb-6"
+//                             />
+
+//                             {/* Email */}
+//                             <input
+//                                 name="email"
+//                                 type="email"
+//                                 placeholder="Email"
+//                                 required
+//                                 className="w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-md font-normal leading-7 rounded-md  border border-gray-200 focus:outline-none pl-4 mb-6"
+//                             />
+
+//                             {/* Phone */}
+//                             <input
+//                                 name="phone"
+//                                 type="tel"
+//                                 placeholder="Phone"
+//                                 className="w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-md font-normal leading-7 rounded-md  border border-gray-200 focus:outline-none pl-4 mb-6"
+//                             />
+
+//                             {/* Phone */}
+//                             <input
+//                                 name="address"
+//                                 type="text"
+//                                 placeholder="Address"
+//                                 className="w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-md font-normal leading-7 rounded-md  border border-gray-200 focus:outline-none pl-4 mb-6"
+//                             />
+
+//                             {/* Message */}
+//                             <textarea
+//                                 name="message"
+//                                 placeholder="Message"
+//                                 required
+//                                 className="w-full h-32 text-gray-600 placeholder-gray-400 bg-transparent text-md shadow-sm font-normal leading-7 rounded-xl border border-gray-200 focus:outline-none p-4 mb-6 resize-none"
+//                             ></textarea>
+
+//                             {/* Submit Button */}
+//                             <button
+//                                 type="submit"
+//                                 className="w-full h-12 text-white text-base font-semibold leading-6 rounded-md transition-all duration-700 cursor-pointer hover:bg-purple-800 bg-gradient-to-r from-[#9112BC] to-[#9929EA] shadow-sm"
+//                             >
+//                                 Send
+//                             </button>
+//                         </div>
+//                     </div>
+//                 </div>
+//             </section>
+//         </form>
+//     );
+// }
+
+
+
+
 
 // D:\NewNextProject\web\app\component\Contact.tsx
-import React from 'react';
+
+// import React from 'react';
+// import { Phone, Mail, MapPin } from 'lucide-react';
+
+// import Image from 'next/image';
+
+// export default function Contact() {
+//     return (
+//         <form>
+//             <section id="contact" className="py-6 templateContainer">
+//                 <div className="text-center  py-10 ">
+
+
+
+//                     <h2 id='quotes' data-aos="fade-up" data-aos-delay="100" className="text-2xl md:text-4xl font-gotu mt-4">
+//                         If You Wish To Become A  {' '}
+//                         <br className="hidden md:inline" />
+//                         Channel Partner
+//                     </h2>
+
+
+//                 </div>
+//                 <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
+//                     <div className="grid lg:grid-cols-2 grid-cols-1">
+//                         {/* Left side image section */}
+//                         <div className="lg:mb-0 mb-4">
+//                             <div className="group w-full">
+//                                 <div className="relative" style={{ height: '430px' }}>
+//                                     <Image
+//                                         width={800}
+//                                         height={800}
+//                                         src="/WebFeatures/Untitled design (11).png"
+//                                         alt="Contact Us"
+//                                         className="w-full h-full object-cover lg:rounded-l-2xl rounded-2xl"
+//                                     />
+
+//                                     <div className="absolute bottom-0 w-full lg:p-6 p-4">
+
+//                                         <div className="bg-white/80 font-gotu rounded-lg p-4 block">
+//                                             {/* Phone */}
+//                                             <a href="tel: +91 8652885995" data-aos="fade-up" className="flex items-center mb-4">
+//                                                 <Phone size={30} strokeWidth={2} className="text-[#9112BC]" />
+//                                                 <h5 className="text-black text-base font-normal leading-6 ml-5">
+//                                                     +91 8652885995
+//                                                 </h5>
+//                                             </a>
+
+//                                             {/* Email */}
+
+//                                             <a
+//                                                 href="mailto:techmobilize@gmail.com"
+//                                                 target="_blank"
+//                                                 rel="noopener noreferrer"
+//                                                 data-aos="fade-up"
+
+//                                                 className="flex items-center mb-4"
+//                                             >
+//                                                 <Mail size={30} strokeWidth={2} className="text-[#9112BC]" />
+//                                                 <h5 className="text-black text-base font-normal leading-6 ml-5">
+//                                                     techmobilize@gmail.com
+//                                                 </h5>
+//                                             </a>
+
+
+//                                             {/* Address */}
+
+
+//                                             <div data-aos="fade-up" className="flex items-center">
+//                                                 <MapPin size={30} strokeWidth={2} className="text-[#9112BC] flex-shrink-0" />
+//                                                 <h5 className="text-black max-w-md text-base font-normal leading-6 ml-5">
+//                                                     Techmobilize Innovations Pvt Ltd<br />
+//                                                     1904, D-1, Shreepati Castle,<br />
+//                                                     Khetwadi Back Road, Mumbai 400004
+//                                                 </h5>
+//                                             </div>
+
+//                                         </div>
+
+//                                     </div>
+//                                 </div>
+//                             </div>
+//                         </div>
+
+//                         {/* Right side form section */}
+//                         <div data-aos="fade-up" data-aos-delay="300" className="bg-gray-50 p-4 lg:px-6 lg:rounded-r-2xl rounded-2xl">
+
+
+//                             {/* Name */}
+//                             <input
+//                                 name="name"
+//                                 type="text"
+//                                 placeholder="Name"
+//                                 required
+//                                 className="w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-md font-normal leading-7 rounded-md border border-gray-200 focus:outline-none pl-4 mb-6"
+//                             />
+
+//                             {/* Email */}
+//                             {/* <input
+//                                 name="email"
+//                                 type="email"
+//                                 placeholder="Email"
+//                                 required
+//                                 className="w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-md font-normal leading-7 rounded-md  border border-gray-200 focus:outline-none pl-4 mb-6"
+//                             /> */}
+
+//                             {/* Phone */}
+//                             <input
+//                                 name="phone"
+//                                 type="tel"
+//                                 placeholder="Phone"
+//                                 className="w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-md font-normal leading-7 rounded-md  border border-gray-200 focus:outline-none pl-4 mb-6"
+//                             />
+
+//                             {/* Phone */}
+//                             {/* <input
+//                                 name="address"
+//                                 type="text"
+//                                 placeholder="Address"
+//                                 className="w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-md font-normal leading-7 rounded-md  border border-gray-200 focus:outline-none pl-4 mb-6"
+//                             /> */}
+
+//                             {/* Message */}
+//                             <textarea
+//                                 name="message"
+//                                 placeholder="Message"
+//                                 required
+//                                 className="w-full h-32 text-gray-600 placeholder-gray-400 bg-transparent text-md shadow-sm font-normal leading-7 rounded-xl border border-gray-200 focus:outline-none p-4 mb-6 resize-none"
+//                             ></textarea>
+
+//                             {/* Submit Button */}
+//                             <button
+//                                 type="submit"
+//                                 className="w-full h-12 text-white text-base font-semibold leading-6 rounded-md transition-all duration-700 cursor-pointer hover:bg-purple-800 bg-gradient-to-r from-[#9112BC] to-[#9929EA] shadow-sm"
+//                             >
+//                                 Send
+//                             </button>
+//                         </div>
+//                     </div>
+//                 </div>
+//             </section>
+//         </form>
+//     );
+// }
+
+
+
+
+// import React from 'react';
+// import { Phone, Mail, MapPin } from 'lucide-react';
+
+// import Image from 'next/image';
+
+// export default function Contact() {
+//     return (
+//         <form>
+//             <section id="contact" className="py-6 templateContainer">
+//                 <div className="text-center  py-10 ">
+
+
+
+//                     <h2 id='quotes' data-aos="fade-up" data-aos-delay="100" className="text-2xl md:text-4xl font-gotu mt-4">
+//                         If You Wish To Become A  {' '}
+//                         <br className="hidden md:inline" />
+//                         Channel Partner
+//                     </h2>
+
+
+//                 </div>
+//                 <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
+//                     <div className="grid lg:grid-cols-2 grid-cols-1">
+//                         {/* Left side image section */}
+//                         <div className="lg:mb-0 mb-4">
+//                             <div className="group w-full">
+//                                 <div className="relative" style={{ height: '430px' }}>
+//                                     <Image
+//                                         width={800}
+//                                         height={800}
+//                                         src="/WebFeatures/Untitled design (11).png"
+//                                         alt="Contact Us"
+//                                         className="w-full h-full object-cover lg:rounded-l-2xl rounded-2xl"
+//                                     />
+
+//                                     <div className="absolute bottom-0 w-full lg:p-6 p-4">
+
+//                                         <div className="bg-white/80 font-gotu rounded-lg p-4 block">
+//                                             {/* Phone */}
+//                                             <a href="tel: +91 8652885995" data-aos="fade-up" className="flex items-center mb-4">
+//                                                 <Phone size={30} strokeWidth={2} className="text-[#9112BC]" />
+//                                                 <h5 className="text-black text-base font-normal leading-6 ml-5">
+//                                                     +91 8652885995
+//                                                 </h5>
+//                                             </a>
+
+//                                             {/* Email */}
+
+//                                             <a
+//                                                 href="mailto:techmobilize@gmail.com"
+//                                                 target="_blank"
+//                                                 rel="noopener noreferrer"
+//                                                 data-aos="fade-up"
+
+//                                                 className="flex items-center mb-4"
+//                                             >
+//                                                 <Mail size={30} strokeWidth={2} className="text-[#9112BC]" />
+//                                                 <h5 className="text-black text-base font-normal leading-6 ml-5">
+//                                                     techmobilize@gmail.com
+//                                                 </h5>
+//                                             </a>
+
+
+//                                             {/* Address */}
+
+
+//                                             <div data-aos="fade-up" className="flex items-center">
+//                                                 <MapPin size={30} strokeWidth={2} className="text-[#9112BC] flex-shrink-0" />
+//                                                 <h5 className="text-black max-w-md text-base font-normal leading-6 ml-5">
+//                                                     Techmobilize Innovations Pvt Ltd<br />
+//                                                     1904, D-1, Shreepati Castle,<br />
+//                                                     Khetwadi Back Road, Mumbai 400004
+//                                                 </h5>
+//                                             </div>
+
+//                                         </div>
+
+//                                     </div>
+//                                 </div>
+//                             </div>
+//                         </div>
+
+//                         {/* Right side form section */}
+//                         <div data-aos="fade-up" data-aos-delay="300" className="bg-gray-50 p-4 lg:px-6 lg:rounded-r-2xl rounded-2xl">
+
+
+//                             {/* Name */}
+//                             <input
+//                                 name="name"
+//                                 type="text"
+//                                 placeholder="Name"
+//                                 required
+//                                 className="w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-md font-normal leading-7 rounded-md border border-gray-200 focus:outline-none pl-4 mb-6"
+//                             />
+
+
+
+//                             {/* Phone */}
+//                             <input
+//                                 name="phone"
+//                                 type="tel"
+//                                 placeholder="Phone"
+//                                 className="w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-md font-normal leading-7 rounded-md  border border-gray-200 focus:outline-none pl-4 mb-6"
+//                             />
+
+//                             {/* Message */}
+//                             <textarea
+//                                 name="message"
+//                                 placeholder="Message"
+//                                 required
+//                                 className="w-full h-32 text-gray-600 placeholder-gray-400 bg-transparent text-md shadow-sm font-normal leading-7 rounded-xl border border-gray-200 focus:outline-none p-4 mb-6 resize-none"
+//                             ></textarea>
+
+//                             {/* Submit Button */}
+//                             <button
+//                                 type="submit"
+//                                 className="w-full h-12 text-white text-base font-semibold leading-6 rounded-md transition-all duration-700 cursor-pointer hover:bg-purple-800 bg-gradient-to-r from-[#9112BC] to-[#9929EA] shadow-sm"
+//                             >
+//                                 Send
+//                             </button>
+//                         </div>
+//                     </div>
+//                 </div>
+//             </section>
+//         </form>
+//     );
+// }
+
+
+'use client';
+import React, { useState } from 'react';
 import { Phone, Mail, MapPin } from 'lucide-react';
-// import Link from 'next/link';
 import Image from 'next/image';
 
 export default function Contact() {
+    const [formData, setFormData] = useState({
+        name: '',
+        phone: '',
+        message: ''
+    });
+
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+        const { name, value } = e.target;
+        setFormData((prev) => ({
+            ...prev,
+            [name]: value
+        }));
+    };
+
+    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
+
+        const { name, phone, message } = formData;
+
+        // Construct WhatsApp message
+        const text = `*New Channel Partner Inquiry*%0A%0A*Name:* ${encodeURIComponent(name)}%0A*Phone:* ${encodeURIComponent(phone)}%0A*Message:* ${encodeURIComponent(message)}`;
+
+        // WhatsApp number to send to
+        const whatsappNumber = '918652885995';
+
+
+
+        // Open WhatsApp chat with pre-filled message
+        window.open(`https://wa.me/${whatsappNumber}?text=${text}`, '_blank');
+    };
+
     return (
-        <form>
+        <form onSubmit={handleSubmit}>
             <section id="contact" className="py-6 templateContainer">
-                <div className="text-center  py-10 ">
-
-                    {/* <Link data-aos="fade-up"
-                        href="#"
-                        className="inline-flex items-center border border-blue-600 rounded-full px-2 py-1 mb-4 hover:bg-blue-50 transition"
-                    >
-                        <span className="bg-gradient-to-r from-blue-200 via-blue-800 to-blue-600 text-white text-xs font-semibold rounded-full px-3 py-1">
-                            Contact Us
-                        </span>
-
-                    </Link> */}
-                    {/* <div
-                        data-aos="fade-up"
-                        className="inline-flex items-center border border-blue-600 rounded-full px-2 py-1 mb-4 hover:bg-blue-50 transition"
-                    >
-                        <span className="bg-gradient-to-r from-blue-200 via-blue-800 to-blue-600 text-white text-xs font-semibold rounded-full px-3 py-1">
-                            Contact Us
-                        </span>
-                    </div> */}
-
-                    <h2 id='quotes' data-aos="fade-up" data-aos-delay="100" className="text-2xl md:text-4xl font-gotu mt-4">
-                        If You Wish To Become A  {' '}
+                <div className="text-center py-10">
+                    <h2 id='apply-for-channel-partner' data-aos="fade-up" data-aos-delay="100" className="text-2xl md:text-4xl font-gotu mt-4">
+                        If You Wish To Become A
                         <br className="hidden md:inline" />
                         Channel Partner
                     </h2>
-
-
                 </div>
                 <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
                     <div className="grid lg:grid-cols-2 grid-cols-1">
-                        {/* Left side image section */}
+
+                        {/* Left Side - Contact Info */}
                         <div className="lg:mb-0 mb-4">
                             <div className="group w-full">
-                                <div className="relative" style={{ height: '530px' }}>
+                                <div className="relative" style={{ height: '430px' }}>
                                     <Image
                                         width={800}
                                         height={800}
@@ -339,26 +791,19 @@ export default function Contact() {
                                         alt="Contact Us"
                                         className="w-full h-full object-cover lg:rounded-l-2xl rounded-2xl"
                                     />
-
                                     <div className="absolute bottom-0 w-full lg:p-6 p-4">
-
                                         <div className="bg-white/80 font-gotu rounded-lg p-4 block">
-                                            {/* Phone */}
-                                            <a href="tel: +91 8652885995" data-aos="fade-up" className="flex items-center mb-4">
+                                            <a href="tel:+918652885995" data-aos="fade-up" className="flex items-center mb-4">
                                                 <Phone size={30} strokeWidth={2} className="text-[#9112BC]" />
                                                 <h5 className="text-black text-base font-normal leading-6 ml-5">
                                                     +91 8652885995
                                                 </h5>
                                             </a>
-
-                                            {/* Email */}
-
                                             <a
                                                 href="mailto:techmobilize@gmail.com"
                                                 target="_blank"
                                                 rel="noopener noreferrer"
                                                 data-aos="fade-up"
-
                                                 className="flex items-center mb-4"
                                             >
                                                 <Mail size={30} strokeWidth={2} className="text-[#9112BC]" />
@@ -366,11 +811,6 @@ export default function Contact() {
                                                     techmobilize@gmail.com
                                                 </h5>
                                             </a>
-
-
-                                            {/* Address */}
-
-
                                             <div data-aos="fade-up" className="flex items-center">
                                                 <MapPin size={30} strokeWidth={2} className="text-[#9112BC] flex-shrink-0" />
                                                 <h5 className="text-black max-w-md text-base font-normal leading-6 ml-5">
@@ -379,68 +819,45 @@ export default function Contact() {
                                                     Khetwadi Back Road, Mumbai 400004
                                                 </h5>
                                             </div>
-
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        {/* Right side form section */}
+                        {/* Right Side - Form */}
                         <div data-aos="fade-up" data-aos-delay="300" className="bg-gray-50 p-4 lg:px-6 lg:rounded-r-2xl rounded-2xl">
-                            {/* <h2 className=" font-gotu text-2xl md:text-4xl leading-10 mb-6">
-                                If You Wish To Become A Channel Partner
-                            </h2> */}
-
-                            {/* Name */}
                             <input
                                 name="name"
                                 type="text"
                                 placeholder="Name"
                                 required
+                                value={formData.name}
+                                onChange={handleChange}
                                 className="w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-md font-normal leading-7 rounded-md border border-gray-200 focus:outline-none pl-4 mb-6"
                             />
-
-                            {/* Email */}
-                            <input
-                                name="email"
-                                type="email"
-                                placeholder="Email"
-                                required
-                                className="w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-md font-normal leading-7 rounded-md  border border-gray-200 focus:outline-none pl-4 mb-6"
-                            />
-
-                            {/* Phone */}
                             <input
                                 name="phone"
                                 type="tel"
                                 placeholder="Phone"
+                                required
+                                value={formData.phone}
+                                onChange={handleChange}
                                 className="w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-md font-normal leading-7 rounded-md  border border-gray-200 focus:outline-none pl-4 mb-6"
                             />
-
-                            {/* Phone */}
-                            <input
-                                name="address"
-                                type="text"
-                                placeholder="Address"
-                                className="w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-md font-normal leading-7 rounded-md  border border-gray-200 focus:outline-none pl-4 mb-6"
-                            />
-
-                            {/* Message */}
                             <textarea
                                 name="message"
                                 placeholder="Message"
                                 required
+                                value={formData.message}
+                                onChange={handleChange}
                                 className="w-full h-32 text-gray-600 placeholder-gray-400 bg-transparent text-md shadow-sm font-normal leading-7 rounded-xl border border-gray-200 focus:outline-none p-4 mb-6 resize-none"
                             ></textarea>
-
-                            {/* Submit Button */}
                             <button
                                 type="submit"
                                 className="w-full h-12 text-white text-base font-semibold leading-6 rounded-md transition-all duration-700 cursor-pointer hover:bg-purple-800 bg-gradient-to-r from-[#9112BC] to-[#9929EA] shadow-sm"
                             >
-                                Send
+                                Send via WhatsApp
                             </button>
                         </div>
                     </div>
