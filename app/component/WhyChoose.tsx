@@ -591,7 +591,8 @@ const phoneData = [
         icon: UserPlus,
     },
     {
-        image: "/WebMockup/create-share/mockup-1.webp",
+        // image: "/WebMockup/create-share/mockup-1.webp",
+        image: "/image/2ebd0e3a-0abd-432e-ac5d-00a8cedb5fd3.webp",
         title: "Fill details",
         description: "Enter your information accurately to proceed with account creation",
         icon: FileText,

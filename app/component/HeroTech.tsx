@@ -2931,7 +2931,8 @@ function useIsMobile() {
 
 const fallbackPhones = {
     left: { src: "/hero-mockup/mockup04.webp", alt: "Left phone" },
-    center: { src: "/hero-mockup/mockup-32.webp", alt: "Center phone" },
+    center: { src: "/image/8180b86c-ba9b-4fe5-b187-6a7ab6b35a34.webp", alt: "Center phone" },
+    // right: { src: "/image/2ebd0e3a-0abd-432e-ac5d-00a8cedb5fd3.png", alt: "Right phone" },
     right: { src: "/hero-mockup/mockup_1.webp", alt: "Right phone" },
 }
 
