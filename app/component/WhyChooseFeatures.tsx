@@ -1000,7 +1000,7 @@ const features: Feature[] = [
         description:
             "Ditch the old paper business cards. With our NFC-enabled smart cards, you can share your digital profile instantly by simply tapping your card to any smartphone — no app installation or setup required. It’s fast, seamless, and makes a lasting first impression.",
 
-        phoneImage: "/WebFeatures/our-feature/db9766ec-76e5-43d4-a766-9e7f7dc2e6f9.webp",
+        phoneImage: "/WebMockup/19f1541b-1ae2-46a6-962d-9bb096460efd.webp",
         phonePosition: "right",
         href: "",
         icon: Scan,
