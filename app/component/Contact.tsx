@@ -787,7 +787,7 @@ export default function Contact() {
                                     <Image
                                         width={800}
                                         height={800}
-                                        src="/WebFeatures/Untitled design (11).png"
+                                        src="/hero-mockup/Untitled design (11).png"
                                         alt="Contact Us"
                                         className="w-full h-full object-cover lg:rounded-l-2xl rounded-2xl"
                                     />

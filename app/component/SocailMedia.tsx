@@ -692,7 +692,7 @@ import { Play } from "lucide-react"
 import { motion } from "framer-motion"
 import Socialslider from "./Socailslider"
 
-const videoUrl = "/video/20251002_0937_New Video_simple_compose_01k6hhn555fn6a33ba00ry4e33.mp4"
+const videoUrl = "/hero-mockup/20251002_0937_New Video_simple_compose_01k6hhn555fn6a33ba00ry4e33.mp4"
 
 export default function SocailMedia() {
     const videoRef = useRef<HTMLVideoElement>(null)

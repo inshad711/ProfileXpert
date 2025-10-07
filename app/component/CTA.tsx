@@ -141,27 +141,9 @@ const CTA: React.FC = () => {
                         <div className="order-1 lg:order-none lg:col-span-3 flex items-center justify-center pt-8 md:pt-0">
                             <div data-aos="fade-up"
                                 data-aos-delay="100" className="relative  w-full h-[350px] lg:h-[500px]">
-                                {/* Left image (slightly lower) */}
-                                {/* <Image
-                                    src="/newmockup/a66aec9c-585f-4237-abc5-da30b81a0598.png"
-                                    alt="Mobile App Preview Left"
-                                    width={400}
-                                    height={400}
-                                    className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 object-contain -rotate-[10deg]"
-                                    style={{ zIndex: 1, left: '40%', top: '30%' }}
-                                />
-                              
+
                                 <Image
-                                    src="/newmockup/a66aec9c-585f-4237-abc5-da30b81a0598.png"
-                                    alt="Mobile App Preview Right"
-                                    width={400}
-                                    height={400}
-                                    className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 object-contain rotate-[10deg]"
-                                    style={{ zIndex: 2, left: '70%', top: '30%' }}
-                                /> */}
-                                {/* Left image (slightly lower) */}
-                                <Image
-                                    src="/WebMockup/mockup  double phone.png"
+                                    src="/hero-mockup/mockupdoublphone.png"
                                     alt="Mobile App Preview Left"
                                     width={400}
                                     height={400}
@@ -175,21 +157,6 @@ const CTA: React.FC = () => {
                                     style={{ zIndex: 1, top: '30%' }}
                                 />
 
-                                {/* Right image (slightly higher) */}
-                                {/* <Image
-                                    src="/newmockup/a66aec9c-585f-4237-abc5-da30b81a0598.png"
-                                    alt="Mobile App Preview Right"
-                                    width={400}
-                                    height={400}
-                                    className="
-        absolute 
-        left-1/2 -translate-x-1/2 
-        top-1/2 -translate-y-1/2 
-        object-contain 
-        rotate-[10deg] 
-        w-[250px] sm:w-[240px] md:w-[280px] lg:w-[350px]"
-                                    style={{ zIndex: 2, left: '70%', top: '30%' }}
-                                /> */}
 
                             </div>
                         </div>

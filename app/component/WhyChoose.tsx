@@ -585,20 +585,20 @@ const phoneData = [
     //     icon: Share2,
     // },
     {
-        image: "/WebMockup/create-share/mockup3.webp",
+        image: "/hero-mockup/mockup3.webp",
         title: "Create account",
         description: "Sign up quickly to access features, save preferences, and explore tools",
         icon: UserPlus,
     },
     {
         // image: "/WebMockup/create-share/mockup-1.webp",
-        image: "/image/2ebd0e3a-0abd-432e-ac5d-00a8cedb5fd3.webp",
+        image: "/hero-mockup/2ebd0e3a-0abd-432e-ac5d-00a8cedb5fd3.webp",
         title: "Fill details",
         description: "Enter your information accurately to proceed with account creation",
         icon: FileText,
     },
     {
-        image: "/WebMockup/create-share/b92551c9-ae22-4235-9d0f-92e827aae011.webp",
+        image: "/hero-mockup/b92551c9-ae22-4235-9d0f-92e827aae011.webp",
         title: "Share cards ",
         description: "Easily share your saved cards with friends or across your devices",
         icon: Share2,

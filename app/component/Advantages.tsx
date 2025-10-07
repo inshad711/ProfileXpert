@@ -456,7 +456,7 @@ const TABS: TabData[] = [
         subtitle: "Elevate Your Digital Presence Effortlessly",
         description:
             "ProfileXpert supports office-ready NFC profiles for smart desks, receptions, and shared workspaces — enabling easy, instant sharing.",
-        image: "/why-choose/238361420_f39eafee-af75-41fc-aa67-bcc9a789ae8e.jpg",
+        image: "/hero-mockup/238361420_f39eafee-af75-41fc-aa67-bcc9a789ae8e.jpg",
         metrics: [
             { delta: "+60%", label: "Profile views increase" },
             { delta: "+45%", label: "Improved aesthetic appeal" },
@@ -471,7 +471,7 @@ const TABS: TabData[] = [
         subtitle: "Tap or Scan — Share Instantly",
         description:
             "Create stunning profiles, share with a tap or QR scan, and impress instantly — no apps or installs required.",
-        image: "/featuress/Untitleddesign12).webp",
+        image: "/hero-mockup/Untitleddesign12).webp",
         metrics: [
             { delta: "+90%", label: "QR code scan engagement" },
             { delta: "-50%", label: "Drop in sharing friction" },
@@ -486,7 +486,7 @@ const TABS: TabData[] = [
         subtitle: "Networking That Moves at Your Speed",
         description:
             "ProfileXpert is your go-to solution for digital business cards, customizable QR codes, and premium profile layouts — trusted by 2000+ users.",
-        image: "/why-choose/2982.jpg",
+        image: "/hero-mockup/2982.jpg",
         metrics: [
             { delta: "+75%", label: "Networking efficiency" },
             { delta: "+50%", label: "New leads generated" },
@@ -501,7 +501,7 @@ const TABS: TabData[] = [
         subtitle: "Maximize Impact at Every Interaction",
         description:
             "ProfileXpert Event Mode lets you share contact details, brochures, and offers instantly via NFC or QR — no printing, no fuss.",
-        image: "/why-choose/2149304774.jpg",
+        image: "/hero-mockup/2149304774.jpg",
         metrics: [
             { delta: "+120%", label: "Lead capture rate" },
             { delta: "-75%", label: "Paper usage at events" },
@@ -516,7 +516,7 @@ const TABS: TabData[] = [
         subtitle: "Smart Digital Identity at Scale",
         description:
             "Manage hundreds of digital profiles, analytics, and sharing options with centralized control. Ideal for HR, sales, and corporate teams.",
-        image: "/why-choose/2150041850.jpg",
+        image: "/hero-mockup/2150041850.jpg",
         metrics: [
             { delta: "+90%", label: "Team onboarding speed" },
             { delta: "+65%", label: "Brand consistency across teams" },

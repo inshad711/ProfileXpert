@@ -1000,7 +1000,7 @@ const features: Feature[] = [
         description:
             "Ditch the old paper business cards. With our NFC-enabled smart cards, you can share your digital profile instantly by simply tapping your card to any smartphone — no app installation or setup required. It’s fast, seamless, and makes a lasting first impression.",
 
-        phoneImage: "/WebMockup/21a5a96c-a49d-4eb5-a8d6-addfe4221ee8.webp",
+        phoneImage: "/hero-mockup/21a5a96c-a49d-4eb5-a8d6-addfe4221ee8.webp",
         phonePosition: "right",
         href: "",
         icon: Scan,
@@ -1011,7 +1011,7 @@ const features: Feature[] = [
         description:
             "Choose from a growing library of 20+ professionally crafted templates, each optimized for visual appeal and performance. Customize colors, fonts, layouts, and content to create a unique profile that truly represents your personal brand or business identity — all with zero design skills needed.",
 
-        phoneImage: "/WebFeatures/our-feature/PROFILEXPERTSMOCKUPCROSS3LEFT.webp",
+        phoneImage: "/hero-mockup/PROFILEXPERTSMOCKUPCROSS3LEFT.webp",
         phonePosition: "left",
         href: "",
         icon: LayoutTemplateIcon,
@@ -1021,7 +1021,7 @@ const features: Feature[] = [
         title: "Images, Videos & Certificate",
         description:
             "Go beyond plain text. Upload high-resolution images, videos, portfolios, certifications, and more to create a dynamic and interactive profile. Whether you’re an entrepreneur, artist, freelancer, or professional, show off your work and achievements in the most engaging way possible.",
-        phoneImage: "/WebFeatures/our-feature/PROFILEXPERTSMOCKUPCROSS RIGHT.webp",
+        phoneImage: "/hero-mockup/PROFILEXPERTSMOCKUPCROSSRIGHT.webp",
         phonePosition: "right",
         href: "",
         icon: ImagePlus,
@@ -1031,7 +1031,7 @@ const features: Feature[] = [
         title: "Share on WhatsApp & Social Media",
         description:
             "Your profile lives on a single, easy-to-share link that works across all platforms — from WhatsApp and LinkedIn to Instagram, email signatures, and even QR codes. Whether you’re networking in person or online, your digital presence is always just a tap or click away.",
-        phoneImage: "/featuress/PROFILE PERTS MOCKUPROSSLEFT.webp",
+        phoneImage: "/hero-mockup/PROFILE PERTS MOCKUPROSSLEFT.webp",
         phonePosition: "left",
         href: "",
         icon: Share2,
