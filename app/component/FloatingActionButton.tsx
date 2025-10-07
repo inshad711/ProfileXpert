@@ -20,7 +20,7 @@ const FloatingActionButton = () => {
                 className="hover:scale-105 hover:-translate-y-1 transition-all ease-in-out duration-300 flex items-center gap-0.5 rounded-xl"
             >
                 <Image
-                    src="/icone/pngwing.png"
+                    src="/hero-mockup/pngwing.png"
                     alt="whatsapp"
                     width={40}
                     height={40}

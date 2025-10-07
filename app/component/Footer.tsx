@@ -137,37 +137,11 @@ const Footer: React.FC = () => {
             <div className="max-w-screen-xl px-4 pt-16 pb-10 mx-auto sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
                     <div>
-                        <Image height={150} width={200} src="/icone/logo-new.png" className="mr-5 w-36 h-18" alt="Company Logo" />
+                        <Image height={150} width={200} src="/hero-mockup/logo-new.png" className="mr-5 w-36 h-18" alt="Company Logo" />
                         <p className="max-w-xs mt-4 text-sm text-gray-600">
                             ProfileXpert is a smart digital business card platform designed to help professionals and businesses create, share, and manage their online presence effortlessly.
                         </p>
-                        {/* <div className="flex sm:flex-row sm:justify-start gap-x-4 mt-6">
-                            <a
-                                href="https://apps.apple.com/in/app/profilexpert/id6747479661"
-                                className="transition-transform hover:-translate-y-0.5"
-                            >
-                                <Image
-                                    src="/icone/en-us.svg"
-                                    alt="Download on the App Store"
-                                    width={160}
-                                    height={48}
-                                    className="h-[42px] w-auto"
-                                />
-                            </a>
 
-                            <a
-                                href="https://play.google.com/store/apps/details?id=com.profile.expert"
-                                className="transition-transform hover:-translate-y-0.5"
-                            >
-                                <Image
-                                    src="/icone/googleplay.svg"
-                                    alt="Get it on Google Play"
-                                    width={160}
-                                    height={48}
-                                    className="h-[42px] w-auto"
-                                />
-                            </a>
-                        </div> */}
                         <div className="flex sm:flex-row sm:justify-start gap-x-4 mt-6">
                             <a
                                 target="_blank"
@@ -176,7 +150,7 @@ const Footer: React.FC = () => {
                                 className="transition-transform hover:-translate-y-0.5"
                             >
                                 <Image
-                                    src="/icone/en-us.svg"
+                                    src="/hero-mockup/en-us.svg"
                                     alt="Download on the App Store"
                                     width={160}
                                     height={48}
@@ -191,7 +165,7 @@ const Footer: React.FC = () => {
                                 className="transition-transform hover:-translate-y-0.5"
                             >
                                 <Image
-                                    src="/icone/googleplay.svg"
+                                    src="/hero-mockup/googleplay.svg"
                                     alt="Get it on Google Play"
                                     width={160}
                                     height={48}

@@ -334,7 +334,7 @@ const Header = () => {
                         <div className="md:flex md:items-center">
                             <Link href="/">
                                 <Image
-                                    src="/icone/logo-new.png"
+                                    src="/hero-mockup/logo-new.png"
                                     alt="Logo"
                                     width={100}
                                     height={70}
